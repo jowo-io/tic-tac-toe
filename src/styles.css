@@ -1,0 +1,92 @@
+/**
+* Usually would prefer to use SASS modules for each component!
+* For this demo it seems simpler just to keep all the styles
+* in one file.
+*/
+
+body {
+  /* source: https://css-tricks.com/snippets/css/better-helvetica/ */
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+/* App root */
+.game {
+  /* no styles currently needed here */
+}
+
+/* Board component styles */
+.board {
+  display: inline-block;
+}
+.board-game {
+  border-top: solid 1px #cccccc;
+  border-left: solid 1px #cccccc;
+}
+.board-status {
+  height: 20px;
+  line-height: 20px;
+}
+.board-status.is-win {
+  color: goldenrod;
+  font-size: 20px;
+}
+.board-status.is-draw {
+  color: grey;
+  font-size: 20px;
+}
+.reset {
+  overflow: hidden;
+  background-color: #ff9900ec;
+  border: solid 1px#ff8787;
+  color: #550000;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 15px;
+  font-size: 15px;
+  transition: 0.3s ease background-color;
+  cursor: pointer;
+}
+.reset:hover {
+  background-color: #f3a632ec;
+}
+
+/* BoardRow component styles */
+.board-row {
+  display: flex;
+}
+
+/* Square component styles */
+.square {
+  border-bottom: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+}
+.square button {
+  overflow: hidden;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  margin: 5px;
+  font-size: 30px;
+  padding: 0;
+  transition: 0.3s ease background-color;
+}
+.square.is-clickable button {
+  cursor: pointer;
+}
+.is-game-over .square button {
+  cursor: not-allowed;
+}
+.square.is-clickable button:hover {
+  background-color: #5e5efa;
+}
+.square button,
+.is-game-over .square button:hover {
+  /* ensures bg color doesn't change when game is over */
+  background-color: #6060ca;
+}
