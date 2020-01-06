@@ -1,4 +1,14 @@
+# About
+
+A code-test performed on 06/01/2020.
+
+The theme was to create a tic-tac-toe game using React/Redux.
+
+See the `src/` folder for my code
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+# Misc
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
