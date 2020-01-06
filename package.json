@@ -8,8 +8,12 @@
     "react-redux": "^7.0.2",
     "redux": "^4.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jowo-io/tic-tac-toe.git"
+  },
   "name": "x1y17",
-  "description": null,
+  "description": "",
   "version": "0.0.0",
   "devDependencies": {
     "react-scripts": "1.0.0"
