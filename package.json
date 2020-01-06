@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/jowo-io/tic-tac-toe.git"
   },
+  "homepage": "https://jowo-io.github.io/tic-tac-toe/build/",
   "name": "x1y17",
   "description": "",
   "version": "0.0.0",
