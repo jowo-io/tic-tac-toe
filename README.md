@@ -1,3 +1,7 @@
+# Demo
+
+See [this link](https://jowo-io.github.io/tic-tac-toe/build/index.html) for the demo
+
 # About
 
 A code-test performed on 06/01/2020.
@@ -5,8 +9,6 @@ A code-test performed on 06/01/2020.
 The theme was to create a tic-tac-toe game using React/Redux.
 
 See the `src/` folder for my code
-
-See [this link](https://jowo-io.github.io/tic-tac-toe/build/index.html) for the demo
 
 # Misc
 
